@@ -19,8 +19,8 @@
 ## to change the name in the app_sys() function in app_config.R /!\
 ##
 golem::fill_desc(
-  pkg_name = "CentralDogma", # The Name of the package containing the App
-  pkg_title = "CentralDogma", # The Title of the package containing the App
+  pkg_name = "CentralDogmaApp", # The Name of the package containing the App
+  pkg_title = "CentralDogmaApp", # The Title of the package containing the App
   pkg_description = "Simulation of the processes involved with the central dogma.", # The Description of the package containing the App
   author_first_name = "Group", # Your First Name
   author_last_name = "16", # Your Last Name
