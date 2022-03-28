@@ -10,7 +10,13 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("CentralDogmaApp")
+      h1("CentralDogmaApp"),
+      tabsetPanel(
+        tabPanel(title = "Convert DNA into peptide sequence",
+                 mod_Generate_peptides_ui("Generate_peptides_1")),
+        tabPanel(title = "Plot amino acid distribution",
+                 mod_Plot_AA_Distribution_ui("Plot_AA_Distribution_1"))
+      )
     )
   )
 }

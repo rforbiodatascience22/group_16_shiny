@@ -1,36 +1,36 @@
 Package: CentralDogmaApp
 Title: CentralDogmaApp
 Version: 0.0.0.9000
-Author@R:
-  c(person(given = "Line",
-           family = "Sandvad Nielsen",
-           role = c("aut", "cre"), # There must be a "cre", but there can only be one
-           email = "s184339@student.dtu.dk"), 
-    person(given = "Melanie",
-           family = "Randahl Nielsen",
-           role = "aut",
-           email = "s164528@student.dtu.dk"),
-    person(given = "Tram",
-           family = "Nguyen",
-           role = "aut",
-           email = "s216535@student.dtu.dk"),
-    person(given = "Casper",
-           family = "Rasmussen",
-           role = "aut",
-           email = "s206220@student.dtu.dk"),
-    person(given = "Varun",
-           family = "Shankar",
-           role = "aut",
-           email = "s212934@student.dtu.dk"))
+Authors@R: 
+    person("Group", "16", , "s184339@student.dtu.dk", role = c("cre", "aut"))
 Description: Simulation of the processes involved with the central dogma.
 License: MIT + file LICENSE
+URL: https://github.com/rforbiodatascience22/group_16_shiny.git
+BugReports: 
+    https://github.com/rforbiodatascience22/group_16_shiny.git/issues
 Imports: 
+    CentralDogma,
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.3.2),
+    magrittr,
     shiny (>= 1.7.1)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+Author@R: c(person(given = "Line", family = "Sandvad Nielsen", role =
+    c("aut", "cre"), # There must be a "cre", but there can only be one
+    email = "s184339@student.dtu.dk"), person(given = "Melanie", family =
+    "Randahl Nielsen", role = "aut", email = "s164528@student.dtu.dk"),
+    person(given = "Tram", family = "Nguyen", role = "aut", email =
+    "s216535@student.dtu.dk"), person(given = "Casper", family =
+    "Rasmussen", role = "aut", email = "s206220@student.dtu.dk"),
+    person(given = "Varun", family = "Shankar", role = "aut", email =
+    "s212934@student.dtu.dk"))
+Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
-URL: https://github.com/rforbiodatascience22/group_16_shiny.git
-BugReports: https://github.com/rforbiodatascience22/group_16_shiny.git/issues
-Authors@R: person('Group', '16', email = 's184339@student.dtu.dk', role = c('cre', 'aut'))

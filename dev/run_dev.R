@@ -1,3 +1,6 @@
+# Sass code compilation
+sass::sass(input = sass::sass_file("inst/app/www/custom.sass"), output = "inst/app/www/custom.css", cache = NULL)
+
 # Set options here
 options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
 
@@ -13,3 +16,4 @@ golem::document_and_reload()
 
 # Run the application
 run_app()
+
