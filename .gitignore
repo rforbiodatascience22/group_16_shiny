@@ -6,3 +6,6 @@
 myshinyapp.Rcheck/
 myshinyapp*.tar.gz
 myshinyapp*.tgz
+CentralDogmaApp.Rcheck/
+CentralDogmaApp*.tar.gz
+CentralDogmaApp*.tgz

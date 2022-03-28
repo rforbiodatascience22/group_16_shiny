@@ -10,7 +10,7 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("CentralDogma")
+      h1("CentralDogmaApp")
     )
   )
 }
@@ -33,7 +33,7 @@ golem_add_external_resources <- function() {
     favicon(),
     bundle_resources(
       path = app_sys("app/www"),
-      app_title = "CentralDogma"
+      app_title = "CentralDogmaApp"
     )
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert()

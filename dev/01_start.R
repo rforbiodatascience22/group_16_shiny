@@ -19,13 +19,13 @@
 ## to change the name in the app_sys() function in app_config.R /!\
 ##
 golem::fill_desc(
-  pkg_name = "myshinyapp", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional)
+  pkg_name = "CentralDogma", # The Name of the package containing the App
+  pkg_title = "CentralDogma", # The Title of the package containing the App
+  pkg_description = "Simulation of the processes involved with the central dogma.", # The Description of the package containing the App
+  author_first_name = "Group", # Your First Name
+  author_last_name = "16", # Your Last Name
+  author_email = "s184339@student.dtu.dk", # Your Email
+  repo_url = "https://github.com/rforbiodatascience22/group_16_shiny.git" # The URL of the GitHub Repo (optional)
 )
 
 ## Set {golem} options ----
@@ -34,7 +34,7 @@ golem::set_golem_options()
 ## Create Common Files ----
 ## See ?usethis for more information
 usethis::use_mit_license("Golem User") # You can set another license here
-usethis::use_readme_rmd(open = FALSE)
+usethis::use_readme_rmd(open = TRUE)
 # Note that `contact` is required since usethis version 2.1.5
 # If your {usethis} version is older, you can remove that param
 usethis::use_code_of_conduct(contact = "Golem User")
